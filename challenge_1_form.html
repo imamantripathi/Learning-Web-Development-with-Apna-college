@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <form action="">
+    <header style="font-size: 52px;text-align:center; background-color:transparent;"  >Survey Form </header>
+    <p style="text-align: center; font-size: larger;">* denoted important field.</p>
+   <p> * Name:<input type="text" name="name" required placeholder="Enter your name"></p>
+    <br>
+    <fieldset>
+        <legend>* Gender</legend>
+      <p>
+      Male <input type="radio" name="gender" required id="male" placeholder="Male">
+          Female <input type="radio" name="gender" required id="female" placeholder="Female">
+      </p>
+    </fieldset>
+  <p>  Mobile No:<input type="number" name="name" placeholder="10 digits number"></p>
+    <br>
+   <p> *Email: <input type="email" name="email" id="email" placeholder="name@gmail.com"></p>
+<br>
+ <p>   Message: <textarea name="address " id="address"rows="8" cols="100" placeholder="Enter your Message for Admin"></textarea>
+ </p>
+ <input type="submit" value="Send">
+</form>
+</body>
+</html>

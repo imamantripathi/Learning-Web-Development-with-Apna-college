@@ -1,0 +1,64 @@
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    font-size: xx-large;
+}
+*{
+    box-sizing: content-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    color: rgb(225, 230, 228);
+}
+.container
+{
+    background-color: bisque;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    outline: thick ridge pink;
+    background-image: url(bg1.jpg);
+
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],input[type="date"],
+select,textarea{
+    width: 98%;
+padding: 12px;
+border: cornsilk;
+outline: thick ridge pink;
+border-radius: 8px;
+
+margin: 10px;
+}
+fieldset{
+    background-color: transparent;
+    border:  2px dashed coral;
+    box-sizing: border-box;
+}
+.main_heading{
+    text-align: center;
+    color: rgb(225, 230, 228);
+
+}
+input[type="submit"]
+{
+background-color: rgb(0, 255, 76);
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor:pointer;
+width: 96%;
+
+}
+input[type="submit"]:hover{
+    background-color: aqua;
+}

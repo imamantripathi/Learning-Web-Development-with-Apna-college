@@ -1,0 +1,55 @@
+
+.maincontainer1{
+    display: flex;
+    padding: 20px;
+    padding-left: 90px;
+}
+
+.flexbox1,.flexbox2,.flexbox3{
+    width: 250px;
+    height: 370px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right:30px;
+    margin-left: 20px;
+margin-bottom: 20px;
+     background-color: palegoldenrod;
+     border-style: solid;
+ border-color: black;
+ border-width: 2px;
+box-shadow: .5px .5px  1px 2px  rgb(37, 35, 35);
+
+}
+.maincontainer2{
+    display: flex;
+    padding: 20px;
+    padding-left: 90px;
+}
+
+.flexbox4,.flexbox5,.flexbox6{
+    width: 250px;
+    height: 370px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right:30px;
+    margin-left: 20px;
+ border-style: solid;
+ border-color: black;
+ border-width: 2px;
+box-shadow: .5px .5px  1px 2px rgb(37, 35, 35);
+ 
+ margin-bottom: 20px;
+     background-color: palegoldenrod;
+}
+button{
+    text-align: center;
+box-shadow: .5px .5px  1px 2px #000;
+
+    width: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1% ;   
+    height: 5in; 
+}
+
+#dabba{
+    background-color: lightgreen;
+}
+
+.nested{ 
+    display: grid;
+    grid-gap: 1%;
+} 
+    </style>
+</head>
+<body>
+    <div class="container">     <!--This is MAIN container body for code-->
+        <!--First Container-->
+        <div id="dabba">1</div>  <!--This will be the 1st box-->
+
+        <!--Second Container-->
+        <div class="nested">       <!-- Inside second container I have nested 2 box -->
+            <div id="dabba">2</div>
+            <div id="dabba">3</div>
+        </div>
+        
+        <!--Third Container-->
+        <div class="nested">                    <!-- Inside third container I have nested 3 box -->
+            <div id="dabba">4</div>
+            <div id="dabba">5</div>
+            <div id="dabba">6</div>
+        </div>
+        
+        <!--Fourth Container-->
+        <div class="nested">                  <!-- Inside fourth container I have nested 4 box -->
+            <div id="dabba">7</div>
+            <div id="dabba">8</div>
+            <div id="dabba">9</div>
+            <div id="dabba">10</div>
+        </div>
+        
+        <!--Fifth Container-->
+        <div class="nested">              <!-- Inside fifth container I have nested 6 box -->
+            <div id="dabba">11</div>
+            <div id="dabba">12</div>
+            <div id="dabba">13</div>
+            <div id="dabba">14</div>
+            <div id="dabba">15</div>
+            <div id="dabba">16</div>
+        </div>
+
+        <!--Sixth Container-->
+        <div class="nested">             <!-- Inside sixth container I have nested 12 box -->
+            <div id="dabba">17</div>
+            <div id="dabba">18</div>
+            <div id="dabba">19</div>
+            <div id="dabba">20</div>
+            <div id="dabba">21</div>
+            <div id="dabba">22</div>
+            <div id="dabba">23</div>
+            <div id="dabba">24</div>
+            <div id="dabba">25</div>
+            <div id="dabba">26</div>
+            <div id="dabba">27</div>
+            <div id="dabba">28</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box & float </title>
+    <style>
+        .box-set{
+            background:wheat;
+            border-radius: 8px;
+            height: 82.7%;
+           
+ 
+        }
+        img{
+            width: 80px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            padding: 1px;
+            float: left;
+        }
+        img.special{
+
+            width: 80px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            padding: 1px;
+            float: right;
+        }
+        .box1,.box2,.box3,.box4{
+            background: whitesmoke;
+            position: sticky;
+            border-radius: 10px;
+            height: 100px;
+            
+            text-align: center;
+            margin: 20px;  
+        }
+        body{
+        margin: 0 auto;
+        max-width: 900px;
+        width: 90%;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="box-set">
+<div class="box1">
+    <img src="user.png" alt="image">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, neque facilis eos maiores nam repellendus esse vel aliquam, deserunt rerum consequatur mollitia. Voluptas neque, quos, unde maiores debitis quasi nostrum dolores cupiditate delectus minima cum. Ratione quod optio laborum eaque.</p>
+</div>
+<div class="box2"><img class="special" src="user.png" alt="image">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, neque facilis eos maiores nam repellendus esse vel aliquam, deserunt rerum consequatur mollitia. Voluptas neque, quos, unde maiores debitis quasi nostrum dolores cupiditate delectus minima cum. Ratione quod optio laborum eaque.</p>
+</div>
+<div class="box3"><img src="user.png" alt="image">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, neque facilis eos maiores nam repellendus esse vel aliquam, deserunt rerum consequatur mollitia. Voluptas neque, quos, unde maiores debitis quasi nostrum dolores cupiditate delectus minima cum. Ratione quod optio laborum eaque.</p>
+</div>
+<div class="box4"><img class="special" src="user.png" alt="image">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, neque facilis eos maiores nam repellendus esse vel aliquam, deserunt rerum consequatur mollitia. Voluptas neque, quos, unde maiores debitis quasi nostrum dolores cupiditate delectus minima cum. Ratione quod optio laborum eaque.</p>
+</div>
+</div>
+</body>
+</html>
